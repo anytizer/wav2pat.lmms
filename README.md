@@ -47,6 +47,21 @@ make
 ./wav2pat
 ```
 
+## Help
+
+```
+Usage: ./wav2pat [options]
+Converts uncompressed PCM WAV audio files into Gravis UltraSound (.PAT) patch files.
+
+Options:
+  -h, --help              Displays help on commandline options.
+  --help-all              Displays help, including generic Qt options.
+  -v, --version           Displays version information.
+  -i, --input <file>      Input WAV file path [required].
+  -o, --output <file>     Output PAT file path [required].
+  -m, --midi-note <note>  Root MIDI note (0-127, default: 60 for Middle C).
+```
+
 ## Credits
 
 Made with the help of Gemini.

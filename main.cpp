@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication app(argc, argv);
-    QCoreApplication::setApplicationName("WavToPatConverter");
+    QCoreApplication::setApplicationName("wav2pat");
     QCoreApplication::setApplicationVersion("1.0");
 
     QCommandLineParser parser;
