@@ -22,15 +22,17 @@ See usage instruction below for details.
 ### Under Linux
 
 ```
-cmake -S . -B build -DCMAKE_PREFIX_PATH=/home/@USERNAME/Qt/6.11.1/gcc_64/
+cd build
+cmake -S .. -B . -DCMAKE_PREFIX_PATH=/home/@USERNAME/Qt/6.11.1/gcc_64/
 cmake --build .
 ```
 
 ### Under Windows
 
 ```
-cmake -S . -B build -DCMAKE_PREFIX_PATH=C:\Qt\6.11.1\msvc2022_64
-cmake --build build
+cd build
+cmake -S .. -B . -DCMAKE_PREFIX_PATH=C:\Qt\6.11.1\msvc2022_64
+cmake --build .
 ```
 
 ## Method 2: Using qmake
