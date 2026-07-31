@@ -20,8 +20,25 @@ cmake --build build
 
 ## Method 2: Using qmake
 
+### Under Windows
+
 ```
-qmake wav2pat.pro
+REM "D:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvars64.bat"
+REM "D:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe"
+
+Windows > Start Menu > "x64 Native Tools Command Prompt for VS 2022"
+```
+
+```
+cd build
+qmake ..\wav2pat.pro
+nmake
+```
+
+### Under Linux
+```
+cd build
+qmake ../wav2pat.pro
 make
 ```
 
