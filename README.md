@@ -1,8 +1,8 @@
 # wav2pat.lmms
 
-16 bits unsiggned, uncompressed PCM .wav to .pat converter for MadEngine or Patman for LMMS.
+16 bits signed, uncompressed PCM .wav to .pat converter for MadEngine or Patman for LMMS.
 
-## Using CMake
+## Method 1: Using CMake
 
 ```
 mkdir build && cd build
@@ -10,7 +10,7 @@ cmake -DCMAKE_PREFIX_PATH=/home/@USERNAME/Qt/6.11.1/gcc_64/ ..
 cmake --build .
 ```
 
-## Using qmake
+## Method 2: Using qmake
 
 ```
 qmake wav2pat.pro
@@ -62,6 +62,6 @@ Options:
   -m, --midi-note <note>  Root MIDI note (0-127, default: 60 for Middle C).
 ```
 
-## Credits
+## Credits / AI Usage
 
 Made with the help of Gemini.
