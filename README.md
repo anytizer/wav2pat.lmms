@@ -1,6 +1,7 @@
 # wav2pat.lmms
 
-16 bits signed, uncompressed PCM [.wav](https://en.wikipedia.org/wiki/WAV) file to [.pat](https://en.wikipedia.org/wiki/Gravis_UltraSound) file converter for use with [MadEngine](https://github.com/anytizer/MadEngine.lmms/) or [Patman](https://github.com/LMMS/lmms/tree/master/plugins/Patman/) under [LMMS](https://github.com/LMMS/lmms/).
+Creates *wav2pat* alternative binary in Windows and Linux.
+It can convert 16 bits signed, uncompressed PCM [.wav](https://en.wikipedia.org/wiki/WAV) file to [.pat](https://en.wikipedia.org/wiki/Gravis_UltraSound) file. They are meant to be used with [MadEngine](https://github.com/anytizer/MadEngine.lmms/) or [Patman](https://github.com/LMMS/lmms/tree/master/plugins/Patman/) under [LMMS](https://github.com/LMMS/lmms/).
 
 MadEngine is a minified version from Patman, that:
 
@@ -13,6 +14,7 @@ MadEngine is a minified version from Patman, that:
 This file format conversion utility is useful to both plugins.
 You can now create your own .pat file and protect the original .wav sample.
 There are some samples from [Madal Instrument](samples/pat/) for revision.
+
 See usage instruction below for details.
 
 ## Method 1: Using CMake
@@ -34,6 +36,7 @@ cmake --build build
 ## Method 2: Using qmake
 
 ### Under Linux
+
 ```
 cd build
 qmake ../wav2pat.pro
@@ -52,6 +55,8 @@ REM
 REM Windows > Start Menu > "x64 Native Tools Command Prompt for VS 2022"
 REM
 ```
+
+Then,
 
 ```
 cd build
@@ -106,4 +111,4 @@ Options:
 
 ## Credits / AI Usage
 
-Made with the help of Gemini.
+Made with the help of free version of Gemini.
