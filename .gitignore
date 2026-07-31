@@ -1,7 +1,7 @@
-build
-wav2pat
-.qmake.stash
-OUT.md
-out/
-Makefile
 *.o
+.qmake.stash
+Makefile
+OUT.md
+build/
+out/
+wav2pat

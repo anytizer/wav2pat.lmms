@@ -46,3 +46,7 @@ make
 ./wav2pat --help
 ./wav2pat
 ```
+
+## Credits
+
+Made with the help of Gemini.
