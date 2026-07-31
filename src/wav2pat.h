@@ -185,6 +185,6 @@ bool convertWavToGusPat(const QString &wavFilePath, const QString &patFilePath, 
     out.writeRawData(processedSamples.constData(), processedSamples.size());
 
     patFile.close();
-    qDebug() << "Successfully generated fully compatible .PAT file matching LMMS parser layout.";
+    qDebug() << "Successfully generated .pat file."; // matching LMMS parser layout
     return true;
 }

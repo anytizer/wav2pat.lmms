@@ -1,6 +1,6 @@
 # wav2pat.lmms
 
-16 bits signed, uncompressed PCM .wav to .pat converter for MadEngine or Patman for LMMS.
+16 bits signed, uncompressed PCM .wav file to .pat converter for MadEngine or Patman for LMMS.
 
 ## Method 1: Using CMake
 
@@ -20,26 +20,30 @@ cmake --build build
 
 ## Method 2: Using qmake
 
+### Under Linux
+```
+cd build
+qmake ../wav2pat.pro
+make
+```
+
 ### Under Windows
 
+Start a Windows terminal using:
+
 ```
+REM
 REM "D:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvars64.bat"
 REM "D:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe"
-
-Windows > Start Menu > "x64 Native Tools Command Prompt for VS 2022"
+REM
+REM Windows > Start Menu > "x64 Native Tools Command Prompt for VS 2022"
+REM
 ```
 
 ```
 cd build
 qmake ..\wav2pat.pro
 nmake
-```
-
-### Under Linux
-```
-cd build
-qmake ../wav2pat.pro
-make
 ```
 
 ## Example

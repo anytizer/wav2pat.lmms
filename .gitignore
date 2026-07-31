@@ -1,8 +1,2 @@
-*.o
-.qmake.stash
-Makefile
-OUT.md
 build/
 !build/.gitkeep
-out/
-wav2pat

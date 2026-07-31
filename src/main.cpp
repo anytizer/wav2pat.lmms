@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setApplicationVersion("1.0");
 
     QCommandLineParser parser;
-    parser.setApplicationDescription("Converts uncompressed PCM WAV audio files into Gravis UltraSound (.PAT) patch files.");
+    parser.setApplicationDescription("Converts uncompressed PCM WAV audio files into .pat files.");
     parser.addHelpOption();
     parser.addVersionOption();
 
