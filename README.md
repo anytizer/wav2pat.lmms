@@ -1,6 +1,18 @@
 # wav2pat.lmms
 
-16 bits signed, uncompressed PCM .wav file to .pat converter for MadEngine or Patman for LMMS.
+16 bits signed, uncompressed PCM [.wav](https://en.wikipedia.org/wiki/WAV) file to [.pat](https://en.wikipedia.org/wiki/Gravis_UltraSound) file converter for use with [MadEngine](https://github.com/anytizer/MadEngine.lmms) or [Patman](https://github.com/LMMS/lmms/tree/master/plugins/Patman) under LMMS.
+
+MadEngine is a minified version from Patman, that:
+
+- does not loop over samples
+- has auto tune pre-enabled
+- Accepts patch file drop-ins
+- hence, configurations options are omitted
+- engine renamed to `<madengine/>` xml node
+
+This file format conversion utility is useful to both plugins.
+You can now create your own .pat file and protect the original .wav sample.
+See usage instruction below for details.
 
 ## Method 1: Using CMake
 
