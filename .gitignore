@@ -3,5 +3,6 @@
 Makefile
 OUT.md
 build/
+!build/.gitkeep
 out/
 wav2pat

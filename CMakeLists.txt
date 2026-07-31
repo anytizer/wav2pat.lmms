@@ -7,8 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 REQUIRED COMPONENTS Core)
 
 add_executable(wav2pat
-    main.cpp
-    wav2pat.h
+    src/main.cpp
+    src/wav2pat.h
 )
 
 target_link_libraries(wav2pat PRIVATE Qt6::Core)

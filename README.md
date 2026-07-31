@@ -4,10 +4,18 @@
 
 ## Method 1: Using CMake
 
+### Under Linux
+
 ```
-mkdir build && cd build
-cmake -DCMAKE_PREFIX_PATH=/home/@USERNAME/Qt/6.11.1/gcc_64/ ..
+cmake -S . -B build -DCMAKE_PREFIX_PATH=/home/@USERNAME/Qt/6.11.1/gcc_64/
 cmake --build .
+```
+
+### Under Windows
+
+```
+cmake -S . -B build -DCMAKE_PREFIX_PATH=C:\Qt\6.11.1\msvc2022_64
+cmake --build build
 ```
 
 ## Method 2: Using qmake

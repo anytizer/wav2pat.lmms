@@ -3,5 +3,5 @@ CONFIG += console c++17
 CONFIG -= app_bundle
 
 SOURCES += \
-    main.cpp \
-    wav2pat.h
+    src/main.cpp \
+    src/wav2pat.h
