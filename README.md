@@ -1,5 +1,13 @@
 # wav2pat.lmms
 
+## Current Status: Proposal Only
+
+```
+failing to harvest exact samples so far.
+May be due to root keys unaffected.
+Sample sound feels too low, and do not match with .wav output.
+```
+
 Creates *wav2pat* alternative binary in Windows and Linux.
 It can convert 16 bits signed, uncompressed PCM [.wav](https://en.wikipedia.org/wiki/WAV) file to [.pat](https://en.wikipedia.org/wiki/Gravis_UltraSound) file. They are meant to be used with [MadEngine](https://github.com/anytizer/MadEngine.lmms/) or [Patman](https://github.com/LMMS/lmms/tree/master/plugins/Patman/) under [LMMS](https://github.com/LMMS/lmms/).
 
